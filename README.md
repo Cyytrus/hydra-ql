@@ -17,3 +17,14 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+
+### Useful content
+
+```
+docker-compose -f kafka-compose.yml up -d
+
+docker start pg
+
+docker-compose -f kafka-compose.yml down
+```
